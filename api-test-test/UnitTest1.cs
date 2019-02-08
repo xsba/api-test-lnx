@@ -1,6 +1,7 @@
 using System;
 using Xunit;
 
+
 namespace api_test_test
 {
     public class UnitTest1
@@ -8,7 +9,8 @@ namespace api_test_test
         [Fact]
         public void Test1()
         {
-            Assert.True(true);
+            var pid = api_test.BL.Pid.Get();
+            Assert.True(pid >= 0);
         }
     }
 }
