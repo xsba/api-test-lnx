@@ -11,7 +11,6 @@ namespace api_test_test
         {
             var pid = api_test.BL.Pid.Get();
             Assert.True(pid >= 0);
-            Assert.True(false);
         }
     }
 }

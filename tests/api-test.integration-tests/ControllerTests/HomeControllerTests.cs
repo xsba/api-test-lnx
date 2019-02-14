@@ -33,6 +33,7 @@ namespace api_test.integration_tests.ControllerTests
             // Assert
             Assert.Equal(HttpStatusCode.OK, resp.StatusCode);
             Assert.Matches(new Regex(@"^PID:\d+$"), body);
+            Assert.True(false);
         }
 
     }
