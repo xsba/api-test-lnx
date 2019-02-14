@@ -1,2 +1,2 @@
 [config]
-command = /home/site/repository/deploy.sh
+XXcommand = /home/site/repository/deploy.sh
